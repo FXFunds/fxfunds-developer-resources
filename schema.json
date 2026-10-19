@@ -25,7 +25,7 @@
       "https://medium.com/@FX_Funds"
     ]
   },
-  "identifier": "https://doi.org/10.5281/zenodo.XXXXXXX",
+    "identifier": "https://doi.org/10.5281/zenodo.23482932",
   "keywords": "FXFunds, developer resources, API reference, SDK, USDT, ERC20, TRC20, TON, stablecoin, blockchain",
   "hasPart": [
     {
@@ -65,7 +65,7 @@
     "https://pypi.org/project/fxfunds-developer-resources/",
     "https://huggingface.co/datasets/FXFunds/developer-resources",
     "https://www.kaggle.com/datasets/fxfunds/developer-resources",
-    "https://zenodo.org/records/XXXXXXX",
+        "https://zenodo.org/records/23482932",
     "https://fxfunds-developer-resources.readthedocs.io"
   ]
 }
