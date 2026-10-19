@@ -1,0 +1,206 @@
+{
+  "title": "FXFunds Developer Resources",
+  "official_website": "https://fxfunds.com/",
+  "last_checked": "2026-10-19",
+  "note": "Open-source FXFunds tools only. No official FXFunds trading or account API is documented.",
+  "projects": [
+    {
+      "id": "blockchain-technology",
+      "name": "FXFunds Blockchain Technology",
+      "description": "Read-only USDT transaction signal analyzer: address and hash checks, confirmation depth, fee efficiency, settlement speed and data completeness scores.",
+      "npm": "@fxfunds/blockchain-technology",
+      "pypi": "fxfunds-blockchain-technology",
+      "python_import": "fxfunds_blockchain_technology",
+      "cli": "fxfunds-blockchain",
+      "doi": "23424646",
+      "node_api": [
+        "analyzeTransaction",
+        "toCSV",
+        "statusFor",
+        "NETWORKS"
+      ],
+      "python_api": [
+        "analyze_transaction",
+        "to_csv",
+        "status_for",
+        "NETWORKS"
+      ],
+      "version": "1.0.0",
+      "verified": "2026-10-19",
+      "repository": "https://github.com/FXFunds/fxfunds-blockchain-technology"
+    },
+    {
+      "id": "stablecoin-payments",
+      "name": "FXFunds Stablecoin Payments",
+      "description": "Read-only USDT payment verification: matches transactions to payment requests, tracks confirmations, blocks duplicate credits and keeps a ledger.",
+      "npm": "@fxfunds/stablecoin-payments",
+      "pypi": "fxfunds-stablecoin-payments",
+      "python_import": "fxfunds_stablecoin_payments",
+      "cli": "fxfunds-payments",
+      "doi": "23463811",
+      "node_api": [
+        "verifyPayment",
+        "PaymentLedger",
+        "NETWORKS"
+      ],
+      "python_api": [
+        "verify_payment",
+        "PaymentLedger",
+        "NETWORKS"
+      ],
+      "version": "1.0.0",
+      "verified": "2026-10-19",
+      "repository": "https://github.com/FXFunds/fxfunds-stablecoin-payments"
+    },
+    {
+      "id": "deposit-withdrawal-guide",
+      "name": "FXFunds Deposit and Withdrawal Guide",
+      "description": "Deposit and withdrawal tracking: request validation, status flow, plain-language status guide, audit trail and reconciliation. Tracking only.",
+      "npm": "@fxfunds/deposit-withdrawal-guide",
+      "pypi": "fxfunds-deposit-withdrawal-guide",
+      "python_import": "fxfunds_deposit_withdrawal_guide",
+      "cli": "fxfunds-dw",
+      "doi": "23464782",
+      "node_api": [
+        "RequestTracker",
+        "validateRequest",
+        "GUIDE",
+        "TRANSITIONS",
+        "METHODS"
+      ],
+      "python_api": [
+        "RequestTracker",
+        "validate_request",
+        "GUIDE",
+        "TRANSITIONS",
+        "METHODS"
+      ],
+      "version": "1.0.0",
+      "verified": "2026-10-19",
+      "repository": "https://github.com/FXFunds/fxfunds-deposit-withdrawal-guide"
+    },
+    {
+      "id": "platform-faq",
+      "name": "FXFunds Platform FAQ",
+      "description": "24 platform questions with verification labels, sources and last-checked dates; offline keyword search.",
+      "npm": "@fxfunds/platform-faq",
+      "pypi": "fxfunds-platform-faq",
+      "python_import": "fxfunds_platform_faq",
+      "cli": "fxfunds-faq",
+      "doi": "23467990",
+      "node_api": [
+        "all",
+        "categories",
+        "byCategory",
+        "byStatus",
+        "get",
+        "search",
+        "format"
+      ],
+      "python_api": [
+        "all_questions",
+        "categories",
+        "by_category",
+        "by_status",
+        "get",
+        "search",
+        "format_answer"
+      ],
+      "version": "1.0.0",
+      "verified": "2026-10-19",
+      "repository": "https://github.com/FXFunds/fxfunds-platform-faq"
+    },
+    {
+      "id": "risk-disclosures",
+      "name": "FXFunds Risk Disclosure Bot",
+      "description": "Official document register and risk categories: which risk disclosures and legal documents have been located and what to check for each risk.",
+      "npm": "@fxfunds/risk-disclosures",
+      "pypi": "fxfunds-risk-disclosures",
+      "python_import": "fxfunds_risk_disclosures",
+      "cli": "fxfunds-risk",
+      "doi": "23470752",
+      "node_api": [
+        "documents",
+        "get",
+        "byStatus",
+        "byCategory",
+        "missing",
+        "summary",
+        "risks",
+        "risk",
+        "documentsForRisk",
+        "format"
+      ],
+      "python_api": [
+        "documents",
+        "get",
+        "by_status",
+        "by_category",
+        "missing",
+        "summary",
+        "risks",
+        "risk",
+        "documents_for_risk",
+        "format_document"
+      ],
+      "version": "1.0.0",
+      "verified": "2026-10-19",
+      "repository": "https://github.com/FXFunds/fxfunds-risk-disclosures"
+    }
+  ],
+  "networks": [
+    {
+      "key": "erc20",
+      "name": "Ethereum (ERC20)",
+      "aliases": [
+        "ethereum",
+        "eth",
+        "usdt_erc20"
+      ],
+      "usdt_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "decimals": 6,
+      "fee_token": "ETH",
+      "default_confirmations": 12,
+      "explorer": "https://etherscan.io",
+      "address_format": "0x + 40 hex",
+      "hash_format": "0x + 64 hex",
+      "address_pattern": "^0x[a-fA-F0-9]{40}$",
+      "hash_pattern": "^0x[a-fA-F0-9]{64}$"
+    },
+    {
+      "key": "trc20",
+      "name": "Tron (TRC20)",
+      "aliases": [
+        "tron",
+        "trx",
+        "usdt_trc20"
+      ],
+      "usdt_contract": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+      "decimals": 6,
+      "fee_token": "TRX (energy and bandwidth)",
+      "default_confirmations": 19,
+      "explorer": "https://tronscan.org",
+      "address_format": "T + 33 Base58",
+      "hash_format": "64 hex",
+      "address_pattern": "^T[1-9A-HJ-NP-Za-km-z]{33}$",
+      "hash_pattern": "^[a-fA-F0-9]{64}$"
+    },
+    {
+      "key": "ton",
+      "name": "TON",
+      "aliases": [
+        "toncoin",
+        "usdt_ton"
+      ],
+      "usdt_contract": "EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs",
+      "decimals": 6,
+      "fee_token": "TON",
+      "default_confirmations": 1,
+      "explorer": "https://tonviewer.com",
+      "address_format": "EQ/UQ + 46 Base64url, or raw 0: + 64 hex",
+      "hash_format": "64 hex or 44 Base64",
+      "address_pattern": "^([EU]Q[A-Za-z0-9_-]{46}|-?\\d:[a-fA-F0-9]{64})$",
+      "hash_pattern": "^([a-fA-F0-9]{64}|[A-Za-z0-9+/_-]{43}=?)$"
+    }
+  ]
+}
