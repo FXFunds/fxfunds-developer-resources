@@ -1,0 +1,21 @@
+site_name: FXFunds Developer Resources
+site_url: https://fxfunds-developer-resources.readthedocs.io
+site_description: "Technical documentation, approved development resources, API references, code examples and integration guidance for developers working with FXFunds open-source tools and technologies."
+site_author: FXFunds
+repo_url: https://github.com/FXFunds/fxfunds-developer-resources
+repo_name: FXFunds/fxfunds-developer-resources
+copyright: MIT License — FXFunds (https://fxfunds.com/)
+
+theme:
+  name: readthedocs
+
+nav:
+  - Home: index.md
+  - API reference: api.md
+  - Integration guide: integration.md
+
+markdown_extensions:
+  - tables
+  - admonition
+  - toc:
+      permalink: true

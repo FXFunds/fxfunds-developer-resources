@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=77.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fxfunds-developer-resources"
+version = "1.0.0"
+description = "FXFunds Developer Resources: catalog of FXFunds open-source packages, API references and USDT network reference with offline address and transaction-hash checks. Built by FXFunds."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "FXFunds" }]
+keywords = [
+  "fxfunds", "developer-resources", "sdk", "api-reference", "usdt", "erc20", "trc20", "ton",
+  "stablecoin", "blockchain", "address-validation", "cli"
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Office/Business :: Financial",
+]
+
+[project.urls]
+Homepage = "https://fxfunds.com/"
+Repository = "https://github.com/FXFunds/fxfunds-developer-resources"
+Documentation = "https://fxfunds-developer-resources.readthedocs.io"
+Issues = "https://github.com/FXFunds/fxfunds-developer-resources/issues"
+
+[project.scripts]
+fxfunds-dev = "fxfunds_developer_resources.__main__:main"
+
+[tool.setuptools]
+packages = ["fxfunds_developer_resources"]
+
+[tool.setuptools.package-data]
+fxfunds_developer_resources = ["catalog.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

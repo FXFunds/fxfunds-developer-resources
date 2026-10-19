@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "name": "FXFunds Developer Resources",
+  "description": "Technical documentation, approved development resources, API references, code examples and integration guidance for developers working with FXFunds open-source tools and technologies.",
+  "codeRepository": "https://github.com/FXFunds/fxfunds-developer-resources",
+  "programmingLanguage": [
+    "TypeScript",
+    "Python"
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "dateModified": "2026-10-19",
+  "author": {
+    "@type": "Organization",
+    "name": "FXFunds",
+    "url": "https://fxfunds.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "FXFunds",
+    "url": "https://fxfunds.com/",
+    "sameAs": [
+      "https://fxfunds.quora.com/",
+      "https://www.pinterest.com/fxfunds_1/",
+      "https://medium.com/@FX_Funds"
+    ]
+  },
+  "identifier": "https://doi.org/10.5281/zenodo.XXXXXXX",
+  "keywords": "FXFunds, developer resources, API reference, SDK, USDT, ERC20, TRC20, TON, stablecoin, blockchain",
+  "hasPart": [
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "FXFunds Blockchain Technology",
+      "codeRepository": "https://github.com/FXFunds/fxfunds-blockchain-technology",
+      "identifier": "https://doi.org/10.5281/zenodo.23424646"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "FXFunds Stablecoin Payments",
+      "codeRepository": "https://github.com/FXFunds/fxfunds-stablecoin-payments",
+      "identifier": "https://doi.org/10.5281/zenodo.23463811"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "FXFunds Deposit and Withdrawal Guide",
+      "codeRepository": "https://github.com/FXFunds/fxfunds-deposit-withdrawal-guide",
+      "identifier": "https://doi.org/10.5281/zenodo.23464782"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "FXFunds Platform FAQ",
+      "codeRepository": "https://github.com/FXFunds/fxfunds-platform-faq",
+      "identifier": "https://doi.org/10.5281/zenodo.23467990"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "FXFunds Risk Disclosure Bot",
+      "codeRepository": "https://github.com/FXFunds/fxfunds-risk-disclosures",
+      "identifier": "https://doi.org/10.5281/zenodo.23470752"
+    }
+  ],
+  "sameAs": [
+    "https://github.com/FXFunds/fxfunds-developer-resources",
+    "https://www.npmjs.com/package/@fxfunds/developer-resources",
+    "https://pypi.org/project/fxfunds-developer-resources/",
+    "https://huggingface.co/datasets/FXFunds/developer-resources",
+    "https://www.kaggle.com/datasets/fxfunds/developer-resources",
+    "https://zenodo.org/records/XXXXXXX",
+    "https://fxfunds-developer-resources.readthedocs.io"
+  ]
+}

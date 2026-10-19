@@ -1,0 +1,82 @@
+{
+  "title": "FXFunds Developer Resources",
+  "description": "Technical documentation, approved development resources, API references, code examples and integration guidance for developers working with FXFunds open-source tools and technologies. Built by FXFunds.",
+  "creators": [
+    {
+      "name": "FXFunds"
+    }
+  ],
+  "keywords": [
+    "FXFunds",
+    "developer resources",
+    "API reference",
+    "SDK",
+    "USDT",
+    "ERC20",
+    "TRC20",
+    "TON",
+    "stablecoin",
+    "blockchain integration"
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "doi": "10.5281/zenodo.XXXXXXX",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/FXFunds/fxfunds-developer-resources",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://fxfunds.com/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23424646",
+      "relation": "documents",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23463811",
+      "relation": "documents",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23464782",
+      "relation": "documents",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23467990",
+      "relation": "documents",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23470752",
+      "relation": "documents",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://www.npmjs.com/package/@fxfunds/developer-resources",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://pypi.org/project/fxfunds-developer-resources/",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://huggingface.co/datasets/FXFunds/developer-resources",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.kaggle.com/datasets/fxfunds/developer-resources",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

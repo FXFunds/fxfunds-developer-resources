@@ -1,0 +1,53 @@
+{
+  "name": "@fxfunds/developer-resources",
+  "version": "1.0.0",
+  "description": "FXFunds Developer Resources — catalog of FXFunds open-source npm and PyPI packages, API references and USDT network reference (ERC20, TRC20, TON) with offline address and transaction-hash format checks.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "bin": {
+    "fxfunds-dev": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "fxfunds_developer_resources/catalog.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "fxfunds",
+    "developer-resources",
+    "sdk",
+    "api-reference",
+    "usdt",
+    "erc20",
+    "trc20",
+    "ton",
+    "stablecoin",
+    "blockchain",
+    "address-validation",
+    "cli"
+  ],
+  "author": "FXFunds",
+  "license": "MIT",
+  "homepage": "https://fxfunds.com/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FXFunds/fxfunds-developer-resources.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FXFunds/fxfunds-developer-resources/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}
