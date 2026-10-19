@@ -4,7 +4,7 @@
 [![PyPI version](https://img.shields.io/pypi/v/fxfunds-developer-resources.svg)](https://pypi.org/project/fxfunds-developer-resources/)
 [![Tests](https://github.com/FXFunds/fxfunds-developer-resources/actions/workflows/tests.yml/badge.svg)](https://github.com/FXFunds/fxfunds-developer-resources/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23482932.svg)](https://doi.org/10.5281/zenodo.23482932)
 [![Docs](https://readthedocs.org/projects/fxfunds-developer-resources/badge/?version=latest)](https://fxfunds-developer-resources.readthedocs.io)
 
 FXFunds Developer Resources provides technical documentation, approved development resources, API references, code examples and integration guidance for developers working with FXFunds-related tools and technologies.
@@ -110,7 +110,7 @@ Published on [Hugging Face](https://huggingface.co/datasets/FXFunds/developer-re
 | PyPI | https://pypi.org/project/fxfunds-developer-resources/ |
 | Hugging Face | https://huggingface.co/datasets/FXFunds/developer-resources |
 | Kaggle | https://www.kaggle.com/datasets/fxfunds/developer-resources |
-| Zenodo | https://zenodo.org/records/XXXXXXX |
+| Zenodo | https://zenodo.org/records/23482932 |
 | Docs | https://fxfunds-developer-resources.readthedocs.io |
 | Quora | https://fxfunds.quora.com/ |
 | Pinterest | https://www.pinterest.com/fxfunds_1/ |
