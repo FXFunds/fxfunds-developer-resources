@@ -1,0 +1,4 @@
+key,name,usdt_contract,decimals,fee_token,default_confirmations,explorer,address_format,hash_format,address_pattern,hash_pattern
+erc20,Ethereum (ERC20),0xdAC17F958D2ee523a2206206994597C13D831ec7,6,ETH,12,https://etherscan.io,0x + 40 hex,0x + 64 hex,^0x[a-fA-F0-9]{40}$,^0x[a-fA-F0-9]{64}$
+trc20,Tron (TRC20),TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t,6,TRX (energy and bandwidth),19,https://tronscan.org,T + 33 Base58,64 hex,^T[1-9A-HJ-NP-Za-km-z]{33}$,^[a-fA-F0-9]{64}$
+ton,TON,EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs,6,TON,1,https://tonviewer.com,"EQ/UQ + 46 Base64url, or raw 0: + 64 hex",64 hex or 44 Base64,^([EU]Q[A-Za-z0-9_-]{46}|-?\d:[a-fA-F0-9]{64})$,^([a-fA-F0-9]{64}|[A-Za-z0-9+/_-]{43}=?)$
