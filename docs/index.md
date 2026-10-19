@@ -2,7 +2,7 @@
 
 Technical documentation, approved development resources, API references, code examples and integration guidance for developers working with FXFunds open-source tools and technologies.
 
-**Official Website:** https://fxfunds.com/ · **Last checked:** 2026-10-19
+**Official Website:** https://fxfunds.com/ · 
 
 !!! note "Scope"
     These are FXFunds' open-source tools. They never hold private keys, sign transactions or move funds, and they do not connect to FXFunds accounts. No official FXFunds trading or account API is documented.
@@ -30,7 +30,7 @@ Technical documentation, approved development resources, API references, code ex
 - PyPI: https://pypi.org/project/fxfunds-developer-resources/
 - Hugging Face: https://huggingface.co/datasets/FXFunds/developer-resources
 - Kaggle: https://www.kaggle.com/datasets/fxfunds/developer-resources
-- Zenodo: https://zenodo.org/records/XXXXXXX
+- Zenodo: https://zenodo.org/records/23482932
 - Docs: https://fxfunds-developer-resources.readthedocs.io
 - Quora: https://fxfunds.quora.com/
 - Pinterest: https://www.pinterest.com/fxfunds_1/
