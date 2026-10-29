@@ -31,6 +31,4 @@ Default confirmations are the reference defaults used by the FXFunds open-source
 - Treat every address and amount from users as untrusted input.
 - Confirm the token contract on-chain; look-alike tokens can share the USDT name.
 
-## What Is Not Available
 
-No official FXFunds trading, account or payment API was found on publicly readable pages at the last check (2026-10-19). Do not build against unofficial endpoints. If FXFunds publishes an API, it will be added here with its official URL.
